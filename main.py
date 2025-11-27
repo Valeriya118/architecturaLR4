@@ -56,7 +56,7 @@ def get_messages():
 
 @app.route('/')
 def hello():
-    return "Hello, Serverless! (raketi net, kodirovka sletela)\n", 200, {'Content-Type': 'text/plain'}
+    return "Hello, Serverless! 🚀\n", 200, {'Content-Type': 'text/plain'}
 
 
 @app.route('/echo', methods=['POST'])
